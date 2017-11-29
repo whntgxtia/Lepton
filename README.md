@@ -1,7 +1,7 @@
 # #########################################################################
 
 # Lepton: LPN based public KEM schemes
-# author: Yu Yu and Jiang Zhang
+# Authors: Yu Yu and Jiang Zhang
 
 The program was implemented by Jiang Zhang (jiangzhang09@gmail.com)
 
