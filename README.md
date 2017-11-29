@@ -1,20 +1,20 @@
-##########################################################################
+# #########################################################################
 
 # Lepton: LPN based public KEM schemes
 # author: Yu Yu and Jiang Zhang
 
 The program was implemented by Jiang Zhang (jiangzhang09@gmail.com)
 
-###########################################################################
+# ##########################################################################
 
 Requires: the host should have installed the openssl library which will be used by the randomness generation subroutines. By default, the program set the path to openssl directories as: "/usr/local/include" and "/usr/local/lib"
 
 
 If openssl is not installed in the above directories, one has to pass the INC=-I/path_to_openssl_header and LIB=-L/path_to_openssl_lib to the make procedure:
 
-# make INC=-I/path_to_openssl_header  LIB=-L/path_to_openssl_lib
+make INC=-I/path_to_openssl_header  LIB=-L/path_to_openssl_lib
 
-# make test
+make test
 
 Else, one can have a quick start, using the following commands 
 
@@ -30,7 +30,7 @@ or
 
 make ALGOR=-DLEPTON_CPA   #building Lepton.CPA
 
-##########################################################################
+# #########################################################################
 
 One can also set different parameter set for the program by passing the PARAM flag to the make procedure: 
 set the Light I parameter set
@@ -65,7 +65,8 @@ or set the Paranoid II parameter set
 
 make PARAM=-DPARAN_II
 
-##########################################################################
+# #########################################################################
+
 Finally, one can combine all the above flags in a single command line:
 
 make PARAM=DMODER_IV  ALGOR=-DLEPTON_CPA INC=-I/path_to_openssl_header  LIB=-L/path_to_openssl_lib
