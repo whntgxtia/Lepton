@@ -1,11 +1,11 @@
 ##########################################################################
+
 #Lepton: LPN based public KEM schemes
 #author: Yu Yu and Jiang Zhang
 #The program was implemented by Jiang Zhang (jiangzhang09@gmail.com)
-#
-#
-#
+
 ###########################################################################
+
 #requires: the host should have installed the openssl library
 #which will be used by the randomness generation subroutines
 #By default, the program set the path to openssl directories as: 
