@@ -45,19 +45,19 @@ make PARAM=-DLIGHT_II
 
 or set the Moderate I parameter set:
 
-make PARAM=DMODER_I
+make PARAM=-DMODER_I
 
 or set the Moderate II parameter set:
 
-make PARAM=DMODER_II
+make PARAM=-DMODER_II
 
 or set the Moderate III parameter set:
 
-make PARAM=DMODER_III
+make PARAM=-DMODER_III
 
 or set the Moderate IV  parameter set:
 
-make PARAM=DMODER_IV
+make PARAM=-DMODER_IV
 
 or set the Paranoid I parameter set:
 
@@ -71,5 +71,5 @@ make PARAM=-DPARAN_II
 
 Finally, one can combine all the above flags in a single command line:
 
-make PARAM=DMODER_IV  ALGOR=-DLEPTON_CPA INC=-I/path_to_openssl_header  LIB=-L/path_to_openssl_lib
+make PARAM=-DMODER_IV  ALGOR=-DLEPTON_CPA INC=-I/path_to_openssl_header  LIB=-L/path_to_openssl_lib
 
